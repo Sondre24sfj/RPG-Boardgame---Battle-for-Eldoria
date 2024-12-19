@@ -1,0 +1,58 @@
+body {
+    font-family: "Lexend Deca", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background: url("./images/brick-16.jpg") no-repeat center;
+    background-size: cover;
+    background-color: black;
+}
+
+h1 {
+    color: #f6f60493;
+    
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(159, 160, 160, 0.568);
+    text-align: center;
+}
+
+.player {
+    background-color: rgb(25, 0, 255);
+    color: white;
+    font-weight: bold;
+}
+
+.treasure {
+    background-color: gold;
+}
+
+.monster {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.door {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+#playerStats {
+    margin-top: 20px;
+    color: #f6f604cd;
+}
+
+#gameMessages {
+    margin-top: 10px;
+    font-weight: bold;
+}
